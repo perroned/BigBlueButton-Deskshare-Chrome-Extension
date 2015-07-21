@@ -1,0 +1,30 @@
+{
+	"name" : "BigBlueButton Deskshare Chrome Extension",
+	"author": "BigBlueButton Inc.",
+	"version" : "0.0.0.1",
+	"version_name": "Initial Development Build",
+	"manifest_version" : 2,
+	"minimum_chrome_version": "34",
+	"description" : "Chrome Extension granting WebRTC screen capturing capabilities to BigblueButton meetings",
+	"homepage_url": "http://bigbluebutton.org/",
+	"background": {
+		"scripts": ["background-script.js"],
+		"persistent": false
+	},
+	"content_scripts": [ {
+		"all_frames": true,
+		"js": [ "content-script.js" ],
+		"matches": ["<all_urls>"],
+		"run_at": "document_start"
+	}],
+	"icons" : {
+		"48" : "icon.png"
+	},
+	"permissions": [
+		"activeTab",
+		"desktopCapture"
+	],
+	"web_accessible_resources": [
+		"icon.png"
+	]
+}
