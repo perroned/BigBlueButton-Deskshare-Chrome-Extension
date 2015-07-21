@@ -95,7 +95,7 @@ function getChromeExtensionStatus(extensionid, callback) {
 
     if (arguments.length != 2) {
         callback = extensionid;
-        extensionid = 'ajhifddimkapgcifgcodmmfdlknahffk'; // default extension-id
+        extensionid = 'your-extension-key'; // your extension key
     }
 
     var image = document.createElement('img');
