@@ -1,14 +1,17 @@
-# [Chrome Extensions](https://github.com/muaz-khan/Chrome-Extensions)
+# BigBlueButton-Deskshare-Chrome-Extension
+
+## Contents
+* [BigBlueButton-Deskshare](https://github.com/perroned/BigBlueButton-Deskshare-Chrome-Extension/tree/master/BigBlueButton-Deskshare)
+* [Screen-Capturing.js](https://github.com/perroned/BigBlueButton-Deskshare-Chrome-Extension/tree/master/Screen-Capturing.js)
+
+For installation of the extension [read here](https://dperronedev.wordpress.com/2015/07/27/locally-testing-your-google-chrome-extension/).
+
+
+## [Chrome Extensions](https://github.com/muaz-khan/Chrome-Extensions)
 
 desktopCapture/tabCapture API are used to capture content of screen or content of selected tab.
 
 A few chrome extensions are supporting direct p2p screen steaming; whilst others are merely capturing `source-id` that web applications can use to capture relevant `MediaStream` object(s).
-
-## Install?
-
-1. [desktopCapture - simple](https://chrome.google.com/webstore/detail/screen-capturing/ajhifddimkapgcifgcodmmfdlknahffk)
-2. [desktopCapture with p2p streaming](https://chrome.google.com/webstore/detail/webrtc-desktop-sharing/nkemblooioekjnpfekmjhpgkackcajhg)
-3. [tabCapture with p2p streaming](https://chrome.google.com/webstore/detail/tab-capturing-sharing/pcnepejfgcmidedoimegcafiabjnodhk)
 
 ## [Screen-Capturing.js](https://github.com/muaz-khan/Chrome-Extensions/tree/master/Screen-Capturing.js) / [Demo](https://www.webrtc-experiment.com/Screen-Capturing/)
 
